@@ -17,6 +17,7 @@
     }
     .getStart{
         width: 42vw !important;
+        font-size: 12px !important;
     }
 
 }
