@@ -43,7 +43,7 @@ const HomePage = () => {
                     <p className="lead fs-6">"Streamline, manage, and optimize your IT processes effortlessly. 
                         Experience seamless collaboration, real-time monitoring, and innovative solutions — all in one platform".
                     </p>
-                    <Link to="/careers" className={`btn bg-white fw-semibold text-primary btn-lg col-md-7 col-sm-12 mt-5 px-2 ${HomeStyle.getStart} `} onClick={() => window.scrollTo(0, 0)}> Get started now </Link>
+                    <Link to="/careers" className={`btn bg-white fw-semibold text-primary btn-lg col-md-6 col-sm-12 mt-5 px-2 ${HomeStyle.getStart} `} onClick={() => window.scrollTo(0, 0)}> Get started now </Link>
                 </Col>
                 <Col md={6} lg={6} className='text-center'>
                     <img src={Happypeople} alt='Happy People' className='img-fluid rounded shadow'  />
