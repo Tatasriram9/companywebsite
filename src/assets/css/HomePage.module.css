@@ -29,7 +29,7 @@
 }
 @media (min-width:770px) and (max-width:840px){
     .getStart{
-        width: 52vw !important;
+        width: 40vw !important;
         font-size: 15px !important;
     }
 }
