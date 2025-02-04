@@ -1,0 +1,18 @@
+.teamcard{
+  background-color: rgb(238, 231, 224);
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide {
+  filter: blur(5px);
+}
+.swiper-slide-active{
+  filter: blur(0px);
+}
+.team-card{
+  transition: transform 0.3 ease, filter 0.3 ease;
+  transform: scale(0.8);
+}

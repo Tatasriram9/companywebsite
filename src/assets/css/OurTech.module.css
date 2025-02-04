@@ -1,0 +1,107 @@
+.teachMain{
+    background: linear-gradient(180deg, #000000 0%, #666666 100%);
+    font-family: 'Lexend';
+    color: #ffffff;
+}
+.techcontainer {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+ }
+ 
+
+
+.techcontainer .techfront {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background: #333;
+     backface-visibility: hidden;
+     transform: perspective(600px) rotateY(0deg);
+     transition: transform 0.55s linear;
+     border-radius:10px;
+ }
+ .techcontainer .techback {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     background:#11284A;
+     backface-visibility: hidden;
+     transform: perspective(600px) rotateY(180deg);
+     transition: transform 0.55s linear
+ }
+ 
+.techcontainer:hover .techfront {
+     transform: perspective(600px) rotateY(-180deg)
+ }
+ .techcontainer:hover .techback {
+     transform: perspective(600px) rotateY(0deg)
+ }
+
+ .tittleTech{
+    z-index: 1;
+    margin-top: 9.53em;
+    background-color:rgb(0,0,0,0);
+    background-color:rgb(0,0,0,0.5);
+    opacity: 1.5;
+    padding: 43px;
+    border-radius: 0 0 10px 10px;
+    font-family: "Lexend";
+ }
+ @media (min-width:768px) and (max-width:1024px){
+    .tittleTech{
+        padding: 45px !important;
+    }
+ } 
+ @media (max-width:768px){
+    .tittleTech{
+        padding: 47px !important;
+    }
+ }
+ @media (max-width:576px){
+    .tittleTech{
+        padding: 38px !important;
+    }
+    .techcontainer{
+        width: 280px;
+    }
+ }
+
+ @media (min-width:980px) and (max-width:1100px){
+    .techcontainer{
+        height: 200px;
+        width: 200px;
+    }
+    .tittleTech{
+        margin-top: 10.4rem;
+        padding: 5px !important;
+        font-size: 16px;
+    }
+ }
+ @media (min-width:1101px) and (max-width:1201px){
+    .techcontainer{
+        height: 200px !important;
+        width: 200px !important;
+    }
+    .tittleTech{
+        margin-top: 10.2rem !important;
+        padding: 5px !important;
+        font-size: 16px;
+    }
+ }
+ @media (min-width:1101px) and (max-width:1440px){
+    .techcontainer{
+        height: 250px;
+        width: 250px;
+    }
+    .tittleTech{
+        margin-top: 11.9rem;
+        padding: 18px;
+    }
+ }

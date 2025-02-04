@@ -1,0 +1,37 @@
+.homeRow1{
+    background-color: #11284A;
+    color: white;
+    padding: 2rem 0;
+}
+.row2para {
+    font-size: clamp(1rem, 4vw, 1.125rem); 
+    line-height: 1.9;
+}
+.row2img{
+    height: 50vh !important;
+}
+@media (max-width: 770px){
+    .row2para{
+        font-size: clamp(1rem, 2vw, 1.1rem)!important;
+        line-height: 1.4;
+    }
+    .getStart{
+        width: 42vw !important;
+    }
+
+}
+@media (min-width: 770px){
+    .row2para{
+        font-size: clamp(1rem, 2vw, 1.003rem)!important;
+        line-height: 1.65;
+    }
+}
+@media(max-width:576px){
+    .row2img{
+        width: 100%;
+        height: auto!important;
+    }
+    .getStart{
+        width: 52vw !important;
+    }
+}

@@ -1,0 +1,10 @@
+.ContactMain{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/contact-image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+    height: auto;
+    min-height: 100vh;
+    font-family: 'Lexend';
+}

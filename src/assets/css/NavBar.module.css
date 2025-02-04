@@ -1,0 +1,38 @@
+.logoName{
+    font-family:"Michroma";
+    color:#376AED;
+}
+.logoBrand{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headNav{
+    background: linear-gradient( 90deg, #376AED 0%, #1F3C87 100%);
+    color: #ffffff;
+}
+.Navmenu:hover{
+    color: #376AED !important;
+    font-weight: bold;
+}
+@media (max-width:576px){
+    .logoName{
+        font-size: 10px;
+    }
+    .logoBrand{
+       width:50vw;
+    }
+    .headLoc{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .locicon{
+        font-size: 14px !important;
+        white-space: nowrap;
+    }
+    .headPhone,.headEmail{
+        visibility: hidden;
+        font-size: 0px;
+        overflow-x: hidden;
+    }
+}
