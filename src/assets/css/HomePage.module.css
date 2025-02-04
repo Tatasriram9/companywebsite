@@ -27,6 +27,12 @@
         font-size: 15px !important;
     }
 }
+@media (min-width:770px) and (max-width:840px){
+    .getStart{
+        width: 52vw !important;
+        font-size: 15px !important;
+    }
+}
 @media(max-width:576px){
     .row2img{
         width: 100%;
