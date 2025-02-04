@@ -1,6 +1,7 @@
 .logoName{
     font-family:"Michroma";
     color:#376AED;
+    font-size: 14px;
 }
 .logoBrand{
     display: flex;

@@ -33,8 +33,8 @@ const NavBar = () => {
         <Navbar.Brand href="/home"  className={NavStyle.logoBrand}>
           <img
               src={Clogo}
-              width="30"
-              height="30"
+              width="50"
+              height="50"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
