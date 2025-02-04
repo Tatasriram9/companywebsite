@@ -24,6 +24,7 @@
     .row2para{
         font-size: clamp(1rem, 2vw, 1.003rem)!important;
         line-height: 1.65;
+        font-size: 15px !important;
     }
 }
 @media(max-width:576px){
@@ -33,6 +34,6 @@
     }
     .getStart{
         width: 52vw !important;
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 }
