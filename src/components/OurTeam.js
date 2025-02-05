@@ -9,14 +9,14 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import 'swiper/css';
-import Narasimhulu from "../assets/images/Narasimhulu D.svg";
-import Sridhar from "../assets/images/Sridhar D.svg";
-import Rajesh from "../assets/images/Rajesh D.svg";
-import Satya from "../assets/images/Satya narayan D.svg";
-import Raju from "../assets/images/Raju D.svg";
-import RamaReddy from "../assets/images/Jayaram D.svg";
-import Manasa from "../assets/images/Manasa D.svg";
-import Jagadeesh from "../assets/images/Jagadeesh D.svg";
+import Narasimhulu from "../assets/images/Narasimhulu D1.svg";
+import Sridhar from "../assets/images/Sridhar D1.svg";
+import Rajesh from "../assets/images/Rajesh D1.svg";
+import Satya from "../assets/images/Satya narayan D1.svg";
+import Raju from "../assets/images/Raju D1.svg";
+import RamaReddy from "../assets/images/Jayaram D1.svg";
+import Manasa from "../assets/images/Manasa D1.svg";
+import Jagadeesh from "../assets/images/Jagadeesh D1.svg";
 
 const OurTeam = () => {
   const teamMembers = [

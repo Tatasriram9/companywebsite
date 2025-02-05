@@ -40,7 +40,7 @@ const AboutPage = () => {
                 src={Bussiness1}
                 width="314px"
                 height="307px"
-                className=""
+                className="rounded-bottom"
               />
             </Card>
             <Card className="mt-2 ">
