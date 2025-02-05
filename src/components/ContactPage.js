@@ -24,7 +24,7 @@ const ContactPage = () => {
             <div>
               <div className="d-flex">
                 <h4><MdOutlineLocationOn className="border rounded-circle text-dark bg-white fs-3 me-3" /></h4>
-                <h5 style={{ color: "#376AED" }}> Address</h5>
+                <h5 style={{ color: "#376AED" }} className="fs-2"> Address</h5>
               </div>
               <p className="ms-5">
                 SRNR IT Solutions, Flat No: 102, Srinilaya Apartments, Opp: SR
@@ -36,7 +36,7 @@ const ContactPage = () => {
                 <h4>
                   <LuPhone className="border rounded-circle p-1 me-3 fs-2 text-dark bg-white" />
                 </h4>
-                <h5 style={{ color: "#376AED" }}>Let's Connect</h5>
+                <h5 style={{ color: "#376AED" }} className="fs-2" >Let's Connect</h5>
               </div>
               <p className="ms-5">(+91) 949-475-1795</p>
             </div>
@@ -45,7 +45,7 @@ const ContactPage = () => {
                 <h4>
                   <MdOutlineMail className="border rounded-circle p-1 fs-2 me-3  text-dark bg-white" />
                 </h4>
-                <h5 style={{ color: "#376AED" }}>Email</h5>
+                <h5 style={{ color: "#376AED" }} className="fs-2">Email</h5>
               </div>
               <p className="ms-5">srnritsolutions@gmail.com</p>
             </div>
