@@ -24,7 +24,7 @@ const NavBar = () => {
           </Col>
           <Col md={2} sm={2} xs={3} className='d-flex justify-content-end' >
             <Link to="https://www.linkedin.com/in/srnr-it-solutions-359855326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app  " target='_blank' className='text-white fs-5 me-2 '><GrLinkedin  /></Link>
-            <Link to="https://www.instagram.com/srnr_it_solutions/profilecard/?igsh=MWpra2swdGY2Z2NmNw== " target='_blank' className='text-white fs-5'><FaInstagramSquare /></Link>
+            <Link to="https://www.instagram.com/srnr_it_solutions/profilecard/?igsh=MWpra2swdGY2Z2NmNw== " target='_blank' className='text-white fs-5'><FaInstagramSquare className='fs-4' /></Link>
           </Col>
         </Row>
       </Container>

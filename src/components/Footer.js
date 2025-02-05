@@ -199,7 +199,7 @@ const Footer = () => {
               target="_blank"
               className="text-white fs-5"
             >
-              <FaInstagramSquare />
+              <FaInstagramSquare className='fs-4' />
             </Link>
           </Col>
         </Row>
