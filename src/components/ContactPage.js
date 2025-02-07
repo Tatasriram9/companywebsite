@@ -47,7 +47,7 @@ const ContactPage = () => {
                 </h4>
                 <h5 style={{ color: "#376AED" }} className="fs-2">Email</h5>
               </div>
-              <p className="ms-5">srnritsolutions@gmail.com</p>
+              <p className="ms-5">info@srnritsolutions.com</p>
             </div>
           </Col>
           <Col md={8} className="d-flex justify-content-center">

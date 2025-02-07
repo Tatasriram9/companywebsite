@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import TPStyle from '../assets/css/TermsandPrivacy.module.css'
 
 const PrivacypolicyPage = () => {
   return (
-    <div class="container-fluid" style={{
+    <div class={`container-fluid ${TPStyle.maingroup}`} style={{
         height: "100%;",
         fontFamily:"Lexend",
         textAlign:"justify",
@@ -10,6 +11,7 @@ const PrivacypolicyPage = () => {
     }}>
         <div class="row ">
             <div class="policy-main" style={{border:"10px solid #162f4b"}}>
+            <h1 class="text-center mt-3 "  style={{color:"#162f4b"}} >Privacy Policy</h1>
                 <div class="policy mt-4">
                 <h4 style={{marginTop:'10px',color:"#162f4b"}}>SRNR IT Solutions Privacy Statement</h4>
                 <p>This privacy statement is effective as of Jan 06, 2024. Please note that this privacy statement will regularly be updated to reflect any changes in the way we handle your personal data or any changes in applicable laws.</p>
@@ -50,7 +52,7 @@ const PrivacypolicyPage = () => {
                 <li>Request portability of your personal data.</li>
                 </ul>
                 <h4 style={{color:"#162f4b"}}>Contact Us</h4>
-                <p className='pb-2'>If you have questions about this privacy statement, wish to exercise your rights, or make a complaint, please contact our Data Privacy Officer at:  <span style={{color:'blue',textDecoration:'underline'}}>srnritsolutions@gmail.com.</span></p>
+                <p className='pb-2'>If you have questions about this privacy statement, wish to exercise your rights, or make a complaint, please contact our Data Privacy Officer at:  <span style={{color:'blue',textDecoration:'underline'}}>info@srnritsolutions.com.</span></p>
                 </div>
             </div>
         </div>

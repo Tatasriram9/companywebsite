@@ -121,7 +121,7 @@ const Footer = () => {
             <ul className="list-unstyled lh-lg">
               <li>
                 <FaLocationDot /> Flat No: 102, Srinilaya Apartments, Opp: SR
-                Nagar &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Police Station,
+                Nagar &nbsp; &nbsp;&nbsp;&nbsp;New Police Station,
                 S.R. Nagar, Hyderabad - 500038.
               </li>
               <li>
@@ -131,8 +131,8 @@ const Footer = () => {
                 </span>{" "}
                 (+91) 949-475-1795{" "}
               </li>
-              <li className={FooterStyle.FootMail}>
-                <IoMail /> srnritsolutions@gmail.com{" "}
+              <li className={FooterStyle.FootMail}> 
+                <IoMail /> info@srnritsolutions.com
               </li>
             </ul>
           </Col>

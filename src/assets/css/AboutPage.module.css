@@ -11,9 +11,9 @@ div.aboutrow1colemp{
     margin-top: 20px;
 }
 .row1col3Text{
-  background: #FFFFFF !important;
   line-height: 1.5;
   font-family: 'Lexend';
+  height: auto;
 }
 .row2Col1content{
   height: 100px;

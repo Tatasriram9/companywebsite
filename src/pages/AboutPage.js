@@ -53,9 +53,9 @@ const AboutPage = () => {
               />
             </Card>
           </Col>
-          <Col sm={12} md={12} lg={5} className="mt-2">
+          <Col sm={12} md={12} lg={5} className="mt-2" >
             <div
-              style={{ position: "relative" }}
+              style={{ position: "relative",textAlign:"justify" }}
               className={AboutStyle.row1col3Text}
             >
               <p>
@@ -129,10 +129,7 @@ const AboutPage = () => {
             <Card style={{ backgroundColor: "#A7DD94" }}>
               <Card.Body>
                 <Card.Text>
-                  Collaboration is the process of working together with others
-                  to achieve a common goal or complete a task. It involves
-                  sharing ideas, skills, and resources while fostering open
-                  communication and mutual respect among participants.
+                Collaboration is the art of uniting efforts for shared goals. By blending ideas, skills, and resources, it fosters open communication and mutual respect, creating a powerful synergy that fuels success and drives innovation forward together.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -142,10 +139,7 @@ const AboutPage = () => {
             <Card style={{ backgroundColor: "#F8B59B" }}>
               <Card.Body>
                 <Card.Text>
-                  Transparency refers to the practice of being open, honest, and
-                  clear about processes, decisions, and information. It involves
-                  sharing relevant details with stakeholders to build trust and
-                  foster accountability.
+                Transparency signifies a dedication to openness and honesty in every process. By sharing vital information with stakeholders, it builds trust and enhances accountability, creating a strong foundation for collaboration and fostering deeper relationships.
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -155,24 +149,17 @@ const AboutPage = () => {
             <Card style={{ backgroundColor: "#FCD07A" }}>
               <Card.Body>
                 <Card.Text>
-                  Trust refers to the confidence that clients, users, and
-                  stakeholders have in an organization’s ability to deliver
-                  reliable, secure, and high-quality technology solutions or
-                  services. It is built over time through consistent actions,
-                  transparency, and delivering on promises.
+                Trust is the confidence clients and stakeholders have in an organization’s ability to deliver reliable, secure, and high-quality tech solutions. Cultivated over time, it flourishes through consistency, transparency, and the unwavering fulfillment of promises.
                 </Card.Text>
               </Card.Body>
             </Card>
           </Col>
-          <Col md={5} className="mb-4 " style={{ fontFamily: "Lexend",lineHeight:"1.85" }}>
+          <Col md={5} className="mb-4 " style={{fontFamily: "Lexend"}}>
             <h3>Integrity</h3>
             <Card style={{ backgroundColor: "#CCB2EE" }}>
               <Card.Body>
                 <Card.Text className="">
-                  Integrity refers to the quality of being honest, ethical, and
-                  consistent in actions, decisions, and behavior, even when no
-                  one is watching. It is a core value that fosters trust and
-                  respect in personal and professional relationships.
+                Integrity embodies honesty, ethics, and consistency in actions and decisions, even when unseen. This core value nurtures trust and respect, forming the foundation of strong personal and professional relationships. Embrace integrity for lasting connections!
                 </Card.Text>
               </Card.Body>
             </Card>

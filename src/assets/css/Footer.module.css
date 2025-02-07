@@ -44,3 +44,9 @@
   }
 
 }
+
+@media (min-width:571px) and (max-width:768px){
+  .News{
+    margin-top: 20px !important;
+  }
+}

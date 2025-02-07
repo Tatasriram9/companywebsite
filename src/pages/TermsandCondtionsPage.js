@@ -1,8 +1,9 @@
 import React from 'react'
+import TPStyle from '../assets/css/TermsandPrivacy.module.css'
 
 const TermsandCondtionsPage = () => {
   return (
-    <div className="container-fluid" style={{
+    <div className={`container-fluid ${TPStyle.maingroup}`} style={{
         height: "100%;",
         fontFamily:"Lexend",
         textAlign:"justify",
@@ -11,7 +12,7 @@ const TermsandCondtionsPage = () => {
     <div className='row'>
     <div className='terms-main' style={{border:"10px solid #162f4b"}}>
       <div className='col pb-1'>
-         <h1 class="text-center  "  style={{color:"#162f4b"}} >Terms And Conditions</h1>
+         <h1 class="text-center mt-3 "  style={{color:"#162f4b"}} >Terms And Conditions</h1>
             <h5 style={{fontWeight:"bold",color:"#162f4b"}} >Acceptance of Terms </h5>
           <p>By accessing and using this website, you agree to comply with the following terms and conditions without limitation or qualification. If you do not agree with these terms, please refrain from using the site.
           </p>
@@ -66,7 +67,7 @@ const TermsandCondtionsPage = () => {
           <p>SRNR IT Solutions reserves the right to modify these terms and conditions at any time. Changes will be effective upon posting. Continued use of the site signifies acceptance of the updated terms.
           </p>
           <h5 style={{fontWeight:"bold",color:"#162f4b"}}>Contact Information:</h5>
-          <p>For questions or concerns regarding these Terms and Conditions, please contact  <span style={{color:'blue',textDecoration:'underline'}}>srnritsolutions@gmail.com</span>.
+          <p>For questions or concerns regarding these Terms and Conditions, please contact  <span style={{color:'blue',textDecoration:'underline'}}>info@srnritsolutions.com</span>.
           </p>
       </div>
     </div>
