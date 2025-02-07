@@ -164,11 +164,11 @@ const AboutPage = () => {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={5} className="mb-4" style={{ fontFamily: "Lexend" }}>
+          <Col md={5} className="mb-4 " style={{ fontFamily: "Lexend",lineHeight:"1.85" }}>
             <h3>Integrity</h3>
             <Card style={{ backgroundColor: "#CCB2EE" }}>
               <Card.Body>
-                <Card.Text>
+                <Card.Text className="">
                   Integrity refers to the quality of being honest, ethical, and
                   consistent in actions, decisions, and behavior, even when no
                   one is watching. It is a core value that fosters trust and
@@ -182,7 +182,7 @@ const AboutPage = () => {
       <Container fluid >
         <Row>
             <div className={AboutStyle.Collibration}>
-              <h1 className="text-white text-center pt-4">Our Collaborators</h1>
+             <h1 className="text-white text-center pt-4">Our Collaborators</h1>
               <div className="row d-flex justify-content-center mt-5 g-4 align-items-center">
                   <Image src={Capgemini} alt="" className={`img-fluid col-sm-1 col-md-2 col-lg-2 ${AboutStyle.CollbrationImages} `}   />
                   <Image src={Aspire} alt=" " className={`img-fluid col-sm-1 col-md-2 col-lg-2 ${AboutStyle.CollbrationImages} `}  />
