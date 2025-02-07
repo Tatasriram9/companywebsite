@@ -17,15 +17,15 @@ const PrivacypolicyPage = () => {
                 <p>In case you have special accessibility needs to access the content of this statement, we recommend that you or someone on your behalf consult our Accessibility Statement and recommendations.</p>
                 <h4 style={{color:"#162f4b"}}>How does SRNR IT Solutions protect your personal data?</h4>
                 <p>SRNR IT Solutions attaches great importance to your right to privacy and the protection of your personal data. We want you to feel secure that when you deal with SRNR IT Solutions, your personal data are in good hands.</p>
-                <p>SRNR IT Solutions protects your personal data in accordance with applicable laws and our data privacy policies. In addition, SRNR IT Solutions maintains the appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing and/or against accidental loss, alteration, disclosure or access, or accidental or unlawful destruction of or damage thereto.</p>
+                <p>SRNR IT Solutions protects your personal data in accordance with applicable laws and our data privacy policies. In addition, SRNR IT Solutions maintains the appropriate technical and organizational measures to protect your personal data against unauthorized or unlawful processing and/or against accidental loss, alteration, disclosure or access, or accidental or unlawful destruction of  damage thereto.</p>
                 <h4 style={{color:"#162f4b"}}>Categories of Personal Data</h4>
                 <p>We collect personal data of our employees, potential employees, clients, and their current/former/prospective employees/directors, suppliers, business contacts, shareholders, and website users. The personal data we collect includes:</p>
             <ul className="list-style-cricle">
                 <li><span style={{fontWeight:"bold"}}>Personal details:</span> Name, pronoun, identifiers, contact details (e.g., email, phone).</li>
                 <li><span style={{fontWeight:"bold"}}>Commercial information:</span> History and records of products/services obtained.</li>
                 <li><span style={{fontWeight:"bold"}}>Marketing and research information:</span> IP address, demographic data, browser history, social media content.</li>
-                <li><span style={{fontWeight:"bold"}}>Sensitive data:</span>Health information, biometric data.</li>
-                <li><span style={{fontWeight:"bold"}}>Audiovisual materials:</span>Images/footage captured during events.</li>
+                <li><span style={{fontWeight:"bold"}}>Sensitive data:</span> Health information, biometric data.</li>
+                <li><span style={{fontWeight:"bold"}}>Audiovisual materials:</span> Images/footage captured during events.</li>
                 <li><span style={{fontWeight:"bold"}}>Professional information: </span>Job title, employer, and location.</li>
             </ul>
                 <h4 style={{color:"#162f4b"}}>How do we use personal data?</h4>
@@ -38,11 +38,11 @@ const PrivacypolicyPage = () => {
                 <li>Marketing our products and services to you.</li>
                 </ul>
                 <h4 style={{color:"#162f4b"}}>Will we share your personal data with third parties?</h4>
-                <p>We may transfer personal data to service providers, public authorities, and third parties in connection with SRNR IT Solutions’ operation of its business.</p>
+                <p>We may transfer personal data to service providers, public authorities, and third parties in connection with SRNR IT Solution's operation of its business.</p>
                 <h4 style={{color:"#162f4b"}}>Your Rights</h4>
                 <p>You are entitled to:</p>
                 <ul className='list-style-circle'>
-                <li>Request access to your personal data.</li>
+                <li>Request access of your personal data.</li>
                 <li>Request correction of your personal data.</li>
                 <li>Object to the processing of your personal data.</li>
                 <li>Request deletion of your personal data.</li>

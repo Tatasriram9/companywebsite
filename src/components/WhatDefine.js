@@ -40,7 +40,7 @@ const WhatDefine = () => {
                     <span style={{color:"#407BFF",fontWeight:"bold"}}>SRNR IT Solutions Pvt Ltd</span> is one of the Software organization to develop better Software applications, Software development and Software consultancy. Beyond the type and size of your business, our certified and skilled developers are here to help you with solution to your business problems through advanced software solutions.
                 </p>
                 <p className={HomeStyle.row2para}>
-                    Our HR Team is prepared to assist you with competent Candidates for your expanding company. We also provide all HR policies and HR services, which help you identify the best HR solutions tailored to your needs.
+                    Our HR Team is prepared to assist you with competent candidates for your expanding company. We also provide all HR policies and HR services, which help you identify the best HR solutions tailored to your needs.
                 </p>
                 <p className={HomeStyle.row2para}>
                     We offer human resources expertise that is aware of business requirements, as well as can offer workforce and resource management in unorganized manufacturing industries in need. We can supply resource management while maintaining our security.

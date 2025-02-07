@@ -19,7 +19,7 @@ const SerivecesPage = () => {
         </div>
       
       <Container fluid style={{ fontFamily: "Lexend" }}>
-        <Row className={`align-items-center justify-content-center mb-2 ${ServiceStyle.serviceRowContent} `}>
+        <Row className={`align-items-center justify-content-center mb-2 ${ServiceStyle.serviceRowContent} `} id="softwaredevelopement" >
           <Col
             xs={{ span: 12, order: 1 }}
             sm={{ span: 12, order: 1 }}
@@ -57,7 +57,7 @@ const SerivecesPage = () => {
             </Card>
           </Col>
         </Row>
-        <Row className="align-items-center mb-2 justify-content-center ">
+        <Row className="align-items-center mb-2 justify-content-center " id="techconsulting" >
           <Col
             xs={{ span: 12, order: 2 }}
             sm={{ span: 12, order: 2 }}
@@ -88,12 +88,12 @@ const SerivecesPage = () => {
           >
             <Image
               src={TechConsulting}
-              alt="Software Devlopement "
+              alt=" TECHNOLOGY CONSULTINGt "
               className={`img-fluid mb-2 mt-2  ${ServiceStyle.serviceTechImg} `}
             />
           </Col>
         </Row>
-        <Row className="align-items-center mb-2 justify-content-center ">
+        <Row className="align-items-center mb-2 justify-content-center " id="innovativesolutions">
           <Col
             xs={{ span: 12, order: 1 }}
             sm={{ span: 12, order: 1 }}
@@ -101,7 +101,7 @@ const SerivecesPage = () => {
           >
             <Image
               src={InnovativeSolutions}
-              alt="Software Devlopement "
+              alt="INNOVATIVE SOLUTIONS "
               className={`img-fluid mb-2 mt-2  ${ServiceStyle.serviceTechImg} `}
             />
           </Col>
@@ -130,7 +130,7 @@ const SerivecesPage = () => {
             </Card>
           </Col>
         </Row>
-        <Row className="align-items-center mb-2 justify-content-center ">
+        <Row className="align-items-center mb-2 justify-content-center " id="itsupportmaintenance">
           <Col
             xs={{ span: 12, order: 2 }}
             sm={{ span: 12, order: 2 }}
@@ -161,7 +161,7 @@ const SerivecesPage = () => {
           >
             <Image
               src={ITSupport}
-              alt="Software Devlopement "
+              alt="IT SUPPORT & MAINTENANCE"
               className={`img-fluid mb-2 mt-2 ${ServiceStyle.serviceTechImg} `}
             />
           </Col>
