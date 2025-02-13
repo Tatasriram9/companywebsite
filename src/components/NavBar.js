@@ -23,7 +23,7 @@ const NavBar = () => {
             <Nav.Link href="mailto:srnritsolutions@gmail.com"  className={`ms-4 ${NavStyle.headEmail}`}><MdOutlineEmail /> info@srnritsolutions.com</Nav.Link>
           </Col>
           <Col md={2} sm={2} xs={3} className='d-flex justify-content-end' >
-            <Link to="https://www.linkedin.com/in/srnr-it-solutions-359855326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app  " target='_blank' className='text-white fs-5 me-2 '><GrLinkedin  /></Link>
+            <Link to="https://www.linkedin.com/company/srnr-it-solutions-pvt-ltd/about/?viewAsMember=true " target='_blank' className='text-white fs-5 me-2 '><GrLinkedin  /></Link>
             <Link to="https://www.instagram.com/srnr_it_solutions/profilecard/?igsh=MWpra2swdGY2Z2NmNw== " target='_blank' className='text-white fs-5'><FaInstagramSquare className='fs-4' /></Link>
           </Col>
         </Row>

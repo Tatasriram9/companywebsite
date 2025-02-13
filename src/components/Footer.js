@@ -188,7 +188,7 @@ const Footer = () => {
           </Col>
           <Col xs={3} sm={2} md={2}>
             <Link
-              to="https://www.linkedin.com/in/srnr-it-solutions-359855326?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app  "
+              to="https://www.linkedin.com/company/srnr-it-solutions-pvt-ltd/about/?viewAsMember=true "
               target="_blank"
               className="text-white fs-5 me-2"
             >
