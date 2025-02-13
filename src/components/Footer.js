@@ -150,7 +150,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  to="mailto:srnritsolutions@gmail.com"
+                  to="mailto:info@srnritsolutions.com"
                   className="btn btn-primary btn-lg"
                 >
                   Send E-mail{" "}

@@ -20,7 +20,7 @@ const NavBar = () => {
           <Col md={10} sm={9} xs={9} className='d-inline-flex'>
             <Nav.Link href="#location" className={NavStyle.headLoc}><FaLocationDot className={NavStyle.locicon}/>Location</Nav.Link>
             <span className={`ms-4 ${NavStyle.headPhone}`}><FaPhoneAlt /> +91 9494751795</span>
-            <Nav.Link href="mailto:srnritsolutions@gmail.com"  className={`ms-4 ${NavStyle.headEmail}`}><MdOutlineEmail /> info@srnritsolutions.com</Nav.Link>
+            <Nav.Link href="mailto:info@srnritsolutions.com"  className={`ms-4 ${NavStyle.headEmail}`}><MdOutlineEmail /> info@srnritsolutions.com</Nav.Link>
           </Col>
           <Col md={2} sm={2} xs={3} className='d-flex justify-content-end' >
             <Link to="https://www.linkedin.com/company/srnr-it-solutions-pvt-ltd/about/?viewAsMember=true " target='_blank' className='text-white fs-5 me-2 '><GrLinkedin  /></Link>
