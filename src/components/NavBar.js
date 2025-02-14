@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 import NavStyle from '../assets/css/NavBar.module.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -13,6 +13,9 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { Link } from 'react-router-dom';
 const NavBar = () => {
+  const [closeMenu, setCloseMenu] = useState(false);
+  const toggleClose = () => setCloseMenu(prevState => !prevState);
+  const closeNavbar = () => setCloseMenu(false);
   return (
     <div>
       <Container fluid className={NavStyle.headNav}>
@@ -40,9 +43,9 @@ const NavBar = () => {
             />
           <span  className={`ms-2 ${NavStyle.logoName}`}>SRNR IT SOLUTIONS</span>
         </Link>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className='ms-auto gap-3'>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"   onClick={toggleClose}/>
+        <Navbar.Collapse id="responsive-navbar-nav" in={closeMenu}>
+          <Nav className='ms-auto gap-3' onClick={closeNavbar}>
             <Link to="/home" className={NavStyle.Navmenu}>Home</Link>
             <Link to="/about" className={NavStyle.Navmenu}>About</Link>
             <Link to="/services" className={NavStyle.Navmenu}>Services</Link>
