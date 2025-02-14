@@ -43,13 +43,13 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='ms-auto gap-3'>
-            <Nav.Link href="/home" className={NavStyle.Navmenu}>Home</Nav.Link>
-            <Nav.Link href="/about" className={NavStyle.Navmenu}>About </Nav.Link>
-            <Nav.Link href="/services" className={NavStyle.Navmenu}>Services</Nav.Link>
-            <Nav.Link href="/faqs" className={NavStyle.Navmenu}>FAQ’s</Nav.Link>
-            <Nav.Link href="/careers" className={NavStyle.Navmenu}>Careers </Nav.Link>
-            <Nav.Link href="/blogs" className={NavStyle.Navmenu}>Blog's</Nav.Link>
-            <Button variant="primary"  className='ms-5'  href="/contactus"> Contact Us</Button>
+            <Link to="/home" className={NavStyle.Navmenu}>Home</Link>
+            <Link to="/about" className={NavStyle.Navmenu}>About</Link>
+            <Link to="/services" className={NavStyle.Navmenu}>Services</Link>
+            <Link to="/faqs" className={NavStyle.Navmenu}>FAQ's</Link>
+            <Link to="/careers" className={NavStyle.Navmenu}>Careers</Link>
+            <Link to="/blogs" className={NavStyle.Navmenu}>Blog's</Link>
+            <Link to="/contactus" className=" btn btn-primary ms-5" >Contact Us</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

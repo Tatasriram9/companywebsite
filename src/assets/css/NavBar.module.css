@@ -12,6 +12,14 @@
     background: linear-gradient( 90deg, #376AED 0%, #1F3C87 100%);
     color: #ffffff;
 }
+.Navmenu{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: rgb(47, 43, 43);
+    font-family: "Lexend";
+    font-size: 18px;
+}
 .Navmenu:hover{
     color: #376AED !important;
     font-weight: bold;
