@@ -78,10 +78,9 @@ const AboutPage = () => {
                 Despite our growth, we remain true to our entrepreneurial roots:
                 staying fast, flexible and always customer-focused.
               </p>
-              <Button variant="primary" href="/contactus">
-                {" "}
-                Know More <FaArrowRight />{" "}
-              </Button>
+              <Link className="btn btn-primary" to="/contactus">
+                Know More <FaArrowRight />
+              </Link>
             </div>
           </Col>
         </Row>
