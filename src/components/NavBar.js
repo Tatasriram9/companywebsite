@@ -30,7 +30,7 @@ const NavBar = () => {
       </Container>
      <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary p-3">
       <Container>
-        <Navbar.Brand href="/home"  className={NavStyle.logoBrand}>
+        <Link to="/"  className={NavStyle.logoBrand}>
           <img
               src={Clogo}
               width="40"
@@ -39,7 +39,7 @@ const NavBar = () => {
               alt="React Bootstrap logo"
             />
           <span  className={`ms-2 ${NavStyle.logoName}`}>SRNR IT SOLUTIONS</span>
-        </Navbar.Brand>
+        </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='ms-auto gap-3'>

@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
 }
 .headNav{
     background: linear-gradient( 90deg, #376AED 0%, #1F3C87 100%);
