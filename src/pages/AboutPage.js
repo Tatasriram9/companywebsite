@@ -78,7 +78,7 @@ const AboutPage = () => {
                 Despite our growth, we remain true to our entrepreneurial roots:
                 staying fast, flexible and always customer-focused.
               </p>
-              <Link className="btn btn-primary" to="/contactus">
+              <Link className="btn btn-primary" to="/contactus" onClick={() => window.scrollTo(0, 0)}>
                 Know More <FaArrowRight />
               </Link>
             </div>
